@@ -1,0 +1,55 @@
+.contact
+  background: $secondary
+  height: auto
+  padding: 70px 10%
+
+
+  h1
+    font-size: 32px
+    font-weight: 600
+    color: white
+    text-align: center
+    padding-bottom: 50px
+
+  .wrapper
+    display: inline-flex
+    justify-content: center
+    width: 100%
+    height: auto
+
+
+    .mobile-picture
+      img
+        min-height: 460px
+        overflow: hidden
+
+    .input-wrapper
+      padding: 20px
+
+      input, textarea
+        border-radius: 20px
+        padding-left: 20px
+        margin-bottom: 20px
+        width: 460px
+        min-height: 40px
+        border: 1px white solid
+        text-decoration: none
+        background: none
+        color: white
+        font-weight: 200
+
+      input::placeholder, textarea::placeholder
+        font-size: 16px
+        font-family: Montserrat, sans-serif
+        font-weight: 200
+        color: white
+
+      textarea
+        height: 160px
+        padding: 10px 20px
+        color: white
+
+      /* imported from 0-base.sass */
+      .flex-container
+        button
+          @extend input
